@@ -7,11 +7,6 @@ export default function CafeDetail() {
 
   if (!selectedCafe) return null;
 
-  const getDayName = (index: number) => {
-    const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
-    return days[index];
-  };
-
   const formatTime = (time: string) => {
     const [hours, minutes] = time.split(':');
     const hour = parseInt(hours);

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Wifi, Laptop, MapPin, Star, WifiOff, LaptopMinimal, Crown } from 'lucide-react';
+import { Wifi, Laptop, MapPin, Star, WifiOff, Crown } from 'lucide-react';
 import { Cafe } from '../types';
 import useStore from '../store/useStore';
 
