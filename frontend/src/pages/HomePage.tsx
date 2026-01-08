@@ -1,13 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import { MapPin, Wifi, Laptop, Search, Filter, Crown } from 'lucide-react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
+import { useLoadScript, Autocomplete } from '@react-google-maps/api';
 import useStore from '../store/useStore';
 import { cafesApi } from '../lib/api';
 import { SearchFilters } from '../types';
 import CafeCard from '../components/CafeCard';
 import CafeDetail from '../components/CafeDetail';
 import SubscriptionModal from '../components/SubscriptionModal';
+
+const libraries: ("places")[] = ["places"];
 
 export default function HomePage() {
   const { cafes, setCafes, setSearchLocation, requiresSubscription, setRequiresSubscription, user } = useStore();
@@ -20,6 +23,13 @@ export default function HomePage() {
   });
   const [showFilters, setShowFilters] = useState(false);
   const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
+  const autocompleteRef = useRef<google.maps.places.Autocomplete | null>(null);
+  const [selectedPlace, setSelectedPlace] = useState<{ lat: number; lng: number } | null>(null);
+
+  const { isLoaded, loadError } = useLoadScript({
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '',
+    libraries,
+  });
 
   const getCurrentLocation = () => {
     if (!navigator.geolocation) {
@@ -69,14 +79,46 @@ export default function HomePage() {
     }
   };
 
-  const handleSearch = () => {
-    if (!location) {
-      getCurrentLocation();
-    } else {
-      // In production, you would geocode the location string
-      toast.error('Please use current location or enter coordinates');
+  const onPlaceChanged = () => {
+    if (autocompleteRef.current) {
+      const place = autocompleteRef.current.getPlace();
+
+      if (place.geometry?.location) {
+        const lat = place.geometry.location.lat();
+        const lng = place.geometry.location.lng();
+        setSelectedPlace({ lat, lng });
+        setLocation(place.formatted_address || place.name || '');
+      } else {
+        toast.error('Please select a valid location from the dropdown');
+      }
     }
   };
+
+  const onLoad = (autocomplete: google.maps.places.Autocomplete) => {
+    autocompleteRef.current = autocomplete;
+  };
+
+  const handleSearch = async () => {
+    if (!location && !selectedPlace) {
+      getCurrentLocation();
+    } else if (selectedPlace) {
+      await searchCafes(selectedPlace.lat, selectedPlace.lng);
+    } else {
+      toast.error('Please select a location from the dropdown');
+    }
+  };
+
+  if (loadError) {
+    return <div className="min-h-screen flex items-center justify-center">
+      <p className="text-red-600">Error loading Google Maps. Please check your API key.</p>
+    </div>;
+  }
+
+  if (!isLoaded) {
+    return <div className="min-h-screen flex items-center justify-center">
+      <p className="text-primary-600">Loading...</p>
+    </div>;
+  }
 
   return (
     <div className="min-h-screen">
@@ -103,14 +145,19 @@ export default function HomePage() {
           <div className="card p-6 max-w-2xl mx-auto">
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex-1 relative">
-                <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-primary-400" />
-                <input
-                  type="text"
-                  placeholder="Enter location or use current location"
-                  value={location}
-                  onChange={(e) => setLocation(e.target.value)}
-                  className="input-field pl-10"
-                />
+                <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-primary-400 z-10 pointer-events-none" />
+                <Autocomplete
+                  onLoad={onLoad}
+                  onPlaceChanged={onPlaceChanged}
+                >
+                  <input
+                    type="text"
+                    placeholder="Enter location or use current location"
+                    value={location}
+                    onChange={(e) => setLocation(e.target.value)}
+                    className="input-field pl-10"
+                  />
+                </Autocomplete>
               </div>
               <button
                 onClick={handleSearch}

@@ -3,11 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Crown, Check, Wifi, Laptop, MapPin, Star, Clock } from 'lucide-react';
 import toast from 'react-hot-toast';
-import { loadStripe } from '@stripe/stripe-js';
 import { subscriptionApi } from '../lib/api';
 import useStore from '../store/useStore';
-
-const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || '');
 
 interface SubscriptionPageProps {
   success?: boolean;
