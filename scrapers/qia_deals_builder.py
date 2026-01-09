@@ -3,6 +3,8 @@
 QIA Investment Deals Database Builder
 Compiles Qatar Investment Authority major investment deals from verified sources
 Data sourced from: AGBI, Global Finance, Wikipedia, Reuters, Bloomberg reports
+
+Updated with granular geographic taxonomy
 """
 
 import pandas as pd
@@ -49,7 +51,7 @@ class QIADealsDatabase:
                 'year': 2025,
                 'company': 'Brookfield - AI Infrastructure JV',
                 'sector': 'Infrastructure/Technology',
-                'geography': 'Qatar/Global',
+                'geography': 'Global/Multi-region',
                 'value': '$20 billion',
                 'deal_type': 'Joint Venture',
                 'source': 'AGBI',
@@ -59,7 +61,7 @@ class QIADealsDatabase:
                 'year': 2025,
                 'company': 'Daya Anagata Nusantara (Indonesia)',
                 'sector': 'Multi-sector (Renewables, Healthcare, Tech)',
-                'geography': 'Indonesia',
+                'geography': 'Asia - Emerging',
                 'value': '$4 billion',
                 'deal_type': 'Joint Fund',
                 'source': 'AGBI',
@@ -69,7 +71,7 @@ class QIADealsDatabase:
                 'year': 2025,
                 'company': 'Janus Henderson Investors',
                 'sector': 'Financial Services/Asset Management',
-                'geography': 'United States/Global',
+                'geography': 'Global/Multi-region',
                 'value': 'Undisclosed',
                 'deal_type': 'Acquisition',
                 'source': 'AGBI, CB Insights',
@@ -89,7 +91,7 @@ class QIADealsDatabase:
                 'year': 2025,
                 'company': 'Isagen',
                 'sector': 'Energy/Infrastructure',
-                'geography': 'Colombia',
+                'geography': 'Latin America',
                 'value': '$500 million',
                 'deal_type': 'Stake Increase to 15%',
                 'source': 'AGBI',
@@ -99,7 +101,7 @@ class QIADealsDatabase:
                 'year': 2025,
                 'company': 'Ivanhoe Mines',
                 'sector': 'Mining/Natural Resources',
-                'geography': 'Canada (operations in Africa)',
+                'geography': 'Sub-Saharan Africa',
                 'value': '$500 million',
                 'deal_type': 'Equity Investment (~4% stake)',
                 'source': 'AGBI',
@@ -109,7 +111,7 @@ class QIADealsDatabase:
                 'year': 2025,
                 'company': 'Rebel Foods (follow-on)',
                 'sector': 'Technology/Food Tech',
-                'geography': 'India',
+                'geography': 'Asia - Emerging',
                 'value': '$25 million',
                 'deal_type': 'Follow-on Investment',
                 'source': 'IntellWings',
@@ -135,7 +137,7 @@ class QIADealsDatabase:
                 'year': 2024,
                 'company': 'RWE',
                 'sector': 'Energy/Renewables',
-                'geography': 'Germany/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': '$2.63 billion (€2.4B)',
                 'deal_type': 'Strategic Equity Investment',
                 'source': 'Wikipedia, AGBI',
@@ -145,7 +147,7 @@ class QIADealsDatabase:
                 'year': 2024,
                 'company': 'ChinaAMC',
                 'sector': 'Financial Services/Asset Management',
-                'geography': 'China',
+                'geography': 'Asia - Emerging',
                 'value': 'Undisclosed',
                 'deal_type': '10% Stake Agreement (pending regulatory approval)',
                 'source': 'AGBI',
@@ -155,7 +157,7 @@ class QIADealsDatabase:
                 'year': 2024,
                 'company': 'Kokusai Electric',
                 'sector': 'Technology/Semiconductors',
-                'geography': 'Japan',
+                'geography': 'Asia - Developed',
                 'value': 'Undisclosed',
                 'deal_type': '5% Stake',
                 'source': 'AGBI',
@@ -165,7 +167,7 @@ class QIADealsDatabase:
                 'year': 2024,
                 'company': "McDonald's China/Hong Kong (via Trustar Capital)",
                 'sector': 'Retail/Consumer/Food',
-                'geography': 'China/Hong Kong',
+                'geography': 'Asia - Emerging',
                 'value': '$1 billion',
                 'deal_type': 'Continuation Fund (Anchor Investor)',
                 'source': 'AGBI',
@@ -181,7 +183,7 @@ class QIADealsDatabase:
                 'year': 2023,
                 'company': 'Reliance Retail Ventures',
                 'sector': 'Retail/Consumer',
-                'geography': 'India',
+                'geography': 'Asia - Emerging',
                 'value': '$1 billion',
                 'deal_type': '1% Stake',
                 'source': 'Wikipedia, AGBI',
@@ -191,7 +193,7 @@ class QIADealsDatabase:
                 'year': 2023,
                 'company': 'Builder.ai',
                 'sector': 'Technology/Software',
-                'geography': 'United Kingdom',
+                'geography': 'UK',
                 'value': '$250 million',
                 'deal_type': 'Series D Funding (Led by QIA)',
                 'source': 'AGBI',
@@ -201,7 +203,7 @@ class QIADealsDatabase:
                 'year': 2023,
                 'company': 'Credit Suisse Group',
                 'sector': 'Banks/Financial Services',
-                'geography': 'Switzerland/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': 'Undisclosed',
                 'deal_type': 'Stake Doubled to 6% (became 2nd largest shareholder)',
                 'source': 'AGBI',
@@ -211,7 +213,7 @@ class QIADealsDatabase:
                 'year': 2023,
                 'company': 'The North Road Company',
                 'sector': 'Infrastructure',
-                'geography': 'Australia',
+                'geography': 'Australia/Oceania',
                 'value': '$150 million',
                 'deal_type': 'Strategic Investment',
                 'source': 'AGBI',
@@ -237,7 +239,7 @@ class QIADealsDatabase:
                 'year': 2022,
                 'company': 'Swiggy',
                 'sector': 'Technology/Food Tech',
-                'geography': 'India',
+                'geography': 'Asia - Emerging',
                 'value': '$700 million',
                 'deal_type': 'Funding Round Participation',
                 'source': 'AGBI',
@@ -247,7 +249,7 @@ class QIADealsDatabase:
                 'year': 2022,
                 'company': 'Innovafeed',
                 'sector': 'AgTech/Food',
-                'geography': 'France/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': '$250 million',
                 'deal_type': 'Funding Round (Led by QIA)',
                 'source': 'AGBI',
@@ -263,7 +265,7 @@ class QIADealsDatabase:
                 'year': 2021,
                 'company': 'Trendyol',
                 'sector': 'Retail/E-commerce',
-                'geography': 'Turkey/Emerging Markets',
+                'geography': 'Middle East & North Africa',
                 'value': '$1.5 billion',
                 'deal_type': 'Funding Round Participation',
                 'source': 'Wikipedia, AGBI',
@@ -283,7 +285,7 @@ class QIADealsDatabase:
                 'year': 2021,
                 'company': 'Rebel Foods',
                 'sector': 'Technology/Food Tech',
-                'geography': 'India',
+                'geography': 'Asia - Emerging',
                 'value': '$175 million',
                 'deal_type': 'Funding Round (Led by QIA)',
                 'source': 'Wikipedia, IntellWings',
@@ -299,7 +301,7 @@ class QIADealsDatabase:
                 'year': 2020,
                 'company': 'CureVac',
                 'sector': 'Biotech/Healthcare',
-                'geography': 'Germany/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': 'Undisclosed',
                 'deal_type': 'Strategic Investment (mRNA COVID vaccine development)',
                 'source': 'Labiotech',
@@ -309,7 +311,7 @@ class QIADealsDatabase:
                 'year': 2020,
                 'company': 'Sub-Saharan African Renewable Energy Platform (with Enel)',
                 'sector': 'Infrastructure/Renewables',
-                'geography': 'Africa/Emerging Markets',
+                'geography': 'Sub-Saharan Africa',
                 'value': 'Undisclosed',
                 'deal_type': 'Platform Investment',
                 'source': 'Labiotech',
@@ -325,7 +327,7 @@ class QIADealsDatabase:
                 'year': 2019,
                 'company': "BYJU'S",
                 'sector': 'Technology/EdTech',
-                'geography': 'India/Asia',
+                'geography': 'Asia - Emerging',
                 'value': '$150 million',
                 'deal_type': 'Funding Round (Led by QIA)',
                 'source': 'Tracxn',
@@ -351,7 +353,7 @@ class QIADealsDatabase:
                 'year': 2018,
                 'company': 'Veolia Environnement',
                 'sector': 'Infrastructure/Utilities',
-                'geography': 'France/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': 'Undisclosed',
                 'deal_type': 'Divestiture (sold 4.6% stake)',
                 'source': 'Tracxn',
@@ -361,7 +363,7 @@ class QIADealsDatabase:
                 'year': 2018,
                 'company': 'Lifestyle International Holdings',
                 'sector': 'Retail',
-                'geography': 'Hong Kong/Asia',
+                'geography': 'Asia - Developed',
                 'value': 'Undisclosed',
                 'deal_type': 'Divestiture (sold entire 23.16% stake)',
                 'source': 'Tracxn',
@@ -393,7 +395,7 @@ class QIADealsDatabase:
                 'year': 2016,
                 'company': 'National Grid UK Gas Distribution',
                 'sector': 'Infrastructure/Utilities',
-                'geography': 'United Kingdom/Europe',
+                'geography': 'UK',
                 'value': 'Undisclosed (multi-billion)',
                 'deal_type': '61% Acquisition (Consortium with Macquarie, Allianz, Hermes, CIC)',
                 'source': 'Tracxn',
@@ -409,7 +411,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Canary Wharf Group',
                 'sector': 'Real Estate',
-                'geography': 'United Kingdom/Europe',
+                'geography': 'UK',
                 'value': 'Undisclosed (multi-billion)',
                 'deal_type': '50% Stake Acquisition',
                 'source': 'Wikipedia, Global Finance',
@@ -425,7 +427,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Harrods',
                 'sector': 'Retail/Luxury',
-                'geography': 'United Kingdom/Europe',
+                'geography': 'UK',
                 'value': 'Undisclosed',
                 'deal_type': 'Full Ownership (acquired 2010, held through period)',
                 'source': 'Wikipedia, Arabian Business',
@@ -435,7 +437,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'The Shard',
                 'sector': 'Real Estate',
-                'geography': 'United Kingdom/Europe',
+                'geography': 'UK',
                 'value': 'Undisclosed',
                 'deal_type': 'Ownership (95% via Qatari Diar)',
                 'source': 'Wikipedia, Arabian Business',
@@ -445,7 +447,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Heathrow Airport',
                 'sector': 'Infrastructure/Transportation',
-                'geography': 'United Kingdom/Europe',
+                'geography': 'UK',
                 'value': 'Undisclosed',
                 'deal_type': '20% Stake',
                 'source': 'Global Finance',
@@ -455,7 +457,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Volkswagen AG',
                 'sector': 'Automotive/Industrial',
-                'geography': 'Germany/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': 'Undisclosed (multi-billion)',
                 'deal_type': '~17% Stake (Largest Shareholder)',
                 'source': 'Arabian Business, Wikipedia',
@@ -465,7 +467,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Barclays',
                 'sector': 'Banks/Financial Services',
-                'geography': 'United Kingdom/Europe',
+                'geography': 'UK',
                 'value': '€7.5 billion (2008 investment)',
                 'deal_type': '12.7% Stake',
                 'source': 'The National, Arabian Business',
@@ -475,7 +477,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Porsche',
                 'sector': 'Automotive/Industrial',
-                'geography': 'Germany/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': 'Undisclosed',
                 'deal_type': 'Strategic Equity Stake',
                 'source': 'Arabian Business',
@@ -485,7 +487,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Iberdrola',
                 'sector': 'Energy/Infrastructure',
-                'geography': 'Spain/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': 'Undisclosed',
                 'deal_type': 'Strategic Equity Stake',
                 'source': 'Wikipedia',
@@ -495,7 +497,7 @@ class QIADealsDatabase:
                 'year': 2015,
                 'company': 'Hochtief',
                 'sector': 'Construction/Industrial',
-                'geography': 'Germany/Europe',
+                'geography': 'Europe (excluding UK)',
                 'value': 'Undisclosed',
                 'deal_type': 'Strategic Equity Stake',
                 'source': 'Arabian Business',
@@ -610,8 +612,8 @@ class QIADealsDatabase:
         for sector, count in sector_counts.items():
             print(f"   {sector}: {count} deals")
 
-        print(f"\n🌍 Deals by Geography:")
-        geo_counts = df['Geography'].value_counts().head(10)
+        print(f"\n🌍 Deals by Geography (Updated Taxonomy):")
+        geo_counts = df['Geography'].value_counts()
         for geo, count in geo_counts.items():
             print(f"   {geo}: {count} deals")
 
@@ -635,6 +637,7 @@ def main():
     print("\n" + "=" * 60)
     print("QIA INVESTMENT DEALS DATABASE BUILDER")
     print("Qatar Investment Authority Deals 2015-2025")
+    print("Updated Geographic Taxonomy")
     print("=" * 60 + "\n")
 
     # Build database
@@ -651,11 +654,17 @@ def main():
     print("\n" + "=" * 60)
     print("✅ DATABASE BUILD COMPLETE")
     print("=" * 60)
-    print("\nNext steps:")
-    print("1. Review the exported CSV/Excel files")
-    print("2. Verify deal information against sources")
-    print("3. Add additional deals from other sources")
-    print("4. Enhance with more detailed information")
+    print("\nGeographic Categories Used:")
+    print("  • UK")
+    print("  • Europe (excluding UK)")
+    print("  • United States")
+    print("  • Asia - Developed (Japan, South Korea, Singapore, Hong Kong)")
+    print("  • Asia - Emerging (China, India, Southeast Asia excl. Singapore)")
+    print("  • Middle East & North Africa")
+    print("  • Sub-Saharan Africa")
+    print("  • Latin America")
+    print("  • Australia/Oceania")
+    print("  • Global/Multi-region")
     print("\nData sources: AGBI, Wikipedia, Global Finance, Tracxn,")
     print("              Arabian Business, IntellWings, Labiotech")
     print("=" * 60 + "\n")
