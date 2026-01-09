@@ -46,11 +46,26 @@ python3 qia_deals_builder.py
 | **Deal Year** | Year of the investment/deal |
 | **Target Company** | Name of the company/asset invested in |
 | **Sector** | Industry sector (Technology, Financial Services, Real Estate, etc.) |
-| **Geography** | Country/region of the target |
+| **Geography** | Country/region of the target (see taxonomy below) |
 | **Deal Value (USD)** | Deal size in USD (or "Undisclosed") |
 | **Deal Type** | Type of transaction (Acquisition, Stake, Funding Round, JV, etc.) |
 | **Source** | Data source(s) |
 | **Source URL** | Link to source article/page |
+
+### Geographic Taxonomy
+
+All deals are categorized using a granular geographic classification:
+
+1. **UK** - United Kingdom
+2. **Europe (excluding UK)** - Continental Europe (Germany, France, Switzerland, Spain, etc.)
+3. **United States** - USA
+4. **Asia - Developed** - Japan, South Korea, Singapore, Hong Kong
+5. **Asia - Emerging** - China, India, Southeast Asia (excluding Singapore)
+6. **Middle East & North Africa** - MENA region including Turkey
+7. **Sub-Saharan Africa** - Africa south of the Sahara
+8. **Latin America** - Central and South America
+9. **Australia/Oceania** - Australia, New Zealand, Pacific Islands
+10. **Global/Multi-region** - Funds, platforms, or vehicles without single geographic exposure
 
 ## 📈 Current Coverage by Sector
 
@@ -64,13 +79,18 @@ python3 qia_deals_builder.py
 8. **Food Tech** - 4 deals
 9. **Healthcare/Biotech** - 1 deal
 
-## 🌍 Geographic Coverage
+## 🌍 Geographic Coverage (Updated Taxonomy)
 
+- **Europe (excluding UK)** - 9 deals (Germany, France, Switzerland, Spain)
+- **Asia - Emerging** - 8 deals (China, India, Southeast Asia)
 - **United States** - 8 deals
-- **UK/Europe** - 18 deals (UK, Germany, France, Switzerland, Spain)
-- **Asia** - 10 deals (India, China, Japan, Hong Kong, Indonesia, Turkey)
-- **Emerging Markets** - 4 deals (Colombia, Africa)
+- **UK** - 7 deals
 - **Global/Multi-region** - 2 deals
+- **Asia - Developed** - 2 deals (Japan, Hong Kong)
+- **Sub-Saharan Africa** - 2 deals
+- **Latin America** - 1 deal (Colombia)
+- **Australia/Oceania** - 1 deal
+- **Middle East & North Africa** - 1 deal (Turkey)
 
 ## 🔄 Data Sources
 
@@ -223,4 +243,4 @@ financial decisions or professional analysis.
 **Last Updated:** January 9, 2026
 **Total Deals:** 42
 **Coverage Period:** 2015-2025
-**Version:** 1.0
+**Version:** 2.0 (Updated Geographic Taxonomy)
