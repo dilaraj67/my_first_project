@@ -9,9 +9,9 @@ Comprehensive web scraper for extracting Qatar Investment Authority (QIA) invest
 - `qia_investment_deals.xlsx` - Excel format with formatting
 
 **Current Dataset:**
-- **42 major investment deals** compiled
-- **Coverage:** 2015-2025
-- **Sources:** AGBI, Wikipedia, Global Finance, Tracxn, Arabian Business, IntellWings, Labiotech
+- **70 comprehensive investment deals** compiled
+- **Coverage:** 2012-2025 (focus on 2015-2025)
+- **Sources:** AGBI, Wikipedia, Global Finance, Tracxn, Arabian Business, IntellWings, Labiotech, TechCrunch, Gulf Times, Fortune, The Real Deal, Middle East Eye, Business Wire, Euronews, Oxford Business Group, Tamarindo, ByTheEast, and more
 
 ## 📁 File Structure
 
@@ -67,30 +67,35 @@ All deals are categorized using a granular geographic classification:
 9. **Australia/Oceania** - Australia, New Zealand, Pacific Islands
 10. **Global/Multi-region** - Funds, platforms, or vehicles without single geographic exposure
 
-## 📈 Current Coverage by Sector
+## 📈 Comprehensive Coverage by Sector
 
-1. **Technology/AI** - 7 deals
-2. **Banks/Financial Services** - 8 deals
-3. **Real Estate** - 6 deals
-4. **Infrastructure/Utilities** - 7 deals
-5. **Retail/Consumer** - 6 deals
-6. **Energy/Renewables** - 4 deals
-7. **Automotive/Industrial** - 3 deals
-8. **Food Tech** - 4 deals
-9. **Healthcare/Biotech** - 1 deal
+1. **Real Estate/Hospitality** - 6 deals
+2. **Technology/AI** - 4 deals
+3. **Technology/Food Tech** - 4 deals
+4. **Banks/Financial Services** - 4 deals
+5. **Sports/Entertainment** - 3 deals
+6. **Energy/Renewables** - 2 deals
+7. **Financial Services/Asset Management** - 2 deals
+8. **Energy/Infrastructure** - 2 deals
+9. **Retail/Luxury/Fashion** - 2 deals
+10. **Technology/Energy Storage** - 2 deals
+11. **Infrastructure** - 2 deals
+12. **Automotive/Industrial** - 2 deals
+13. **Plus 25+ other specialized sectors**
 
-## 🌍 Geographic Coverage (Updated Taxonomy)
+## 🌍 Geographic Coverage (Comprehensive)
 
-- **Europe (excluding UK)** - 9 deals (Germany, France, Switzerland, Spain)
-- **Asia - Emerging** - 8 deals (China, India, Southeast Asia)
-- **United States** - 8 deals
-- **UK** - 7 deals
-- **Global/Multi-region** - 2 deals
+- **United States** - 17 deals
+- **Europe (excluding UK)** - 17 deals (Germany, France, Switzerland, Spain, Italy)
+- **Asia - Emerging** - 11 deals (China, India, Indonesia, Southeast Asia)
+- **UK** - 11 deals
+- **Sub-Saharan Africa** - 3 deals (6-nation infrastructure pledge + others)
+- **Global/Multi-region** - 3 deals
+- **Latin America** - 2 deals (Brazil, Colombia)
 - **Asia - Developed** - 2 deals (Japan, Hong Kong)
-- **Sub-Saharan Africa** - 2 deals
-- **Latin America** - 1 deal (Colombia)
+- **Middle East & North Africa** - 2 deals (Turkey)
 - **Australia/Oceania** - 1 deal
-- **Middle East & North Africa** - 1 deal (Turkey)
+- **United States/UK** - 1 deal
 
 ## 🔄 Data Sources
 
@@ -241,6 +246,6 @@ financial decisions or professional analysis.
 ---
 
 **Last Updated:** January 9, 2026
-**Total Deals:** 42
-**Coverage Period:** 2015-2025
-**Version:** 2.0 (Updated Geographic Taxonomy)
+**Total Deals:** 70 comprehensive deals
+**Coverage Period:** 2012-2025 (primary focus: 2015-2025)
+**Version:** 3.0 FINAL COMPREHENSIVE (Granular Geographic Taxonomy + All Major Deals)
