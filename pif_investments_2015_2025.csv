@@ -5,9 +5,12 @@ Deal Year,Target Company,Sector,Geography,Deal Value (USD),Deal Type,Source URL
 2016,Uber Technologies,Technology/Transportation,United States,$3.5 billion,5% Stake Acquisition,https://www.pif.gov.sa/en/news-and-insights/press-releases/2016/saudi-arabian-pif/
 2016,Americana Group,Hospitality/Food Services,Middle East & North Africa excluding Saudi Arabia,$2.4 billion (indirect via Adeptio),50% Stake Acquisition (indirect),https://www.pif.gov.sa/en/news-and-insights/press-releases/2016/pif-to-acquire-stake-in-americana-group/
 2017,Blackstone Infrastructure Partnership,Infrastructure/Real Estate,Global/Multi-region (primarily US),$20 billion commitment,Joint Venture/Partnership,https://www.pif.gov.sa/en/news-and-insights/press-releases/2017/launch-40-dollar-billion-infrastructure/
+2017,Virgin Galactic/Space Companies,Space Tourism/Aerospace,United States,$1 billion (proposed),Investment MoU (Cancelled 2018),https://spacenews.com/virgin-signs-agreement-with-saudi-arabia-for-billion-dollar-investment/
 2018,Magic Leap (Initial),Technology/AR-VR,United States,$400 million,Minority Stake,https://www.pif.gov.sa/en/news-and-insights/press-releases/2018/pif-invests-400-million-dollar/
 2018,Lucid Motors,Automotive/Electric Vehicles,United States,$1 billion+,Majority Stake Acquisition,https://www.pif.gov.sa/en/news-and-insights/press-releases/2018/lucid-motors/
 2018,AccorInvest,Real Estate/Hospitality,Europe (excluding UK - France),€4.4 billion (~$5.2B) share of sale,Co-investor in 57.5% acquisition,https://en.wikipedia.org/wiki/Four_Seasons_Hotels_and_Resorts
+2018,Tesla,Automotive/Electric Vehicles,United States,$1.7-2.9 billion (est.),3-5% Stake (acquired 2018 - divested Q4 2019),https://electrek.co/2020/02/04/tsla-saudi-arabia-sold-tesla-stake-worth-billion-before-massive-rally/
+2019,Aramco IPO Proceeds,Energy,Saudi Arabia,$25.6-29.4 billion,1.5-1.7% IPO proceeds to PIF,https://www.arabnews.com/node/1798781/business-economy
 2020,BP,Energy,UK,$827.8 million,Minority Stake (Q1 - divested Q2),https://www.arabnews.com/node/1675796/business-economy
 2020,Boeing,Aerospace/Manufacturing,United States,$713.7 million,Minority Stake (Q1 - divested Q2),https://www.thenationalnews.com/business/saudi-arabia-s-public-investment-fund-invests-billions-of-dollars-in-boeing-disney-and-facebook-shares-1.1020204
 2020,Citigroup,Banks/Financial Services,United States,$521.9 million,Minority Stake (Q1 - divested Q2),https://www.cnbc.com/2020/05/16/saudi-sovereign-fund-discloses-stakes-in-citi-boeing-facebook.html
@@ -33,7 +36,6 @@ Deal Year,Target Company,Sector,Geography,Deal Value (USD),Deal Type,Source URL
 2020,Broadcom,Technology/Semiconductors,United States,N/A,Minority Stake (Q1 - divested Q2),https://www.arabnews.com/node/1675796/business-economy
 2020,Jio Platforms,Technology/Telecommunications,Asia - Emerging (India),$1.5 billion,2.32% Stake Acquisition,https://www.pif.gov.sa/en/news-and-insights/press-releases/2020/jio-platforms/
 2020,Reliance Retail,Retail,Asia - Emerging (India),$1.3 billion,2.04% Stake Acquisition,https://techcrunch.com/2020/11/05/reliance-retail-raises-1-3-billion-from-pif/
-2020,Tesla,Automotive/Electric Vehicles,United States,$1.7-2.9 billion (initial 2018),3-5% Stake (divested Q4 2019),https://electrek.co/2020/02/04/tsla-saudi-arabia-sold-tesla-stake-worth-billion-before-massive-rally/
 2021,Electronic Arts (Initial Stake),Gaming/Technology,United States,N/A,Minority Stake Acquisition,https://en.wikipedia.org/wiki/Public_Investment_Fund
 2021,Take-Two Interactive,Gaming/Technology,United States,N/A,Minority Stake Acquisition,https://en.wikipedia.org/wiki/Public_Investment_Fund
 2021,Activision Blizzard,Gaming/Technology,United States,N/A,Minority Stake Acquisition,https://en.wikipedia.org/wiki/Public_Investment_Fund
@@ -50,11 +52,14 @@ Deal Year,Target Company,Sector,Geography,Deal Value (USD),Deal Type,Source URL
 2022,Aston Martin,Automotive/Luxury,UK,£78 million (~$95 million),16.7% Stake Acquisition,https://pe-insights.com/news/2022/07/18/aston-martin-raises-650m-as-saudi-arabias-pif-takes-a-stake/
 2022,Magic Leap (Additional),Technology/AR-VR,United States,$450 million,Majority Control (>50%),https://www.roadtovr.com/saudi-arabia-majority-control-magic-leap-450m/
 2022,Skyborn Renewables,Infrastructure/Renewable Energy,Europe (excluding UK - Germany),N/A,9.5% Stake Acquisition,https://www.pif.gov.sa/en/news-and-insights/press-releases/2022/skyborn-renewables/
+2022,Saudi National Bank / Credit Suisse,Banks/Financial Services,Europe (excluding UK - Switzerland),$1.5 billion (via SNB - 37% owned by PIF),9.9% Stake via SNB (lost $1B in UBS takeover),https://www.cnbc.com/2022/10/31/credit-suisse-shares-are-a-steal-say-new-saudi-backers-snb.html
 2023,Heathrow Airport (Agreement),Infrastructure/Aviation,UK,$2.5 billion (est. for initial 10%),10% Stake Agreement,https://www.agbi.com/banking-finance/2023/11/pif-buys-10-stake-in-uks-heathrow-airport/
 2023,Aston Martin (Increase),Automotive/Luxury,UK,N/A,Increased to 20.5% stake,https://www.arabnews.com/node/2405961/business-economy
 2023,Rocco Forte Hotels,Hospitality/Luxury Hotels,UK,~£686 million (49% of £1.4B valuation),49% Stake Acquisition,https://www.arabnews.com/node/2419926/business-economy
 2023,STC/Telefonica,Telecommunications,Europe (excluding UK - Spain),$2.25 billion (€2.1B),9.9% Stake (via STC - 62% owned by PIF),https://www.investing.com/news/stock-market-news/saudi-arabias-stc-group-to-become-telefonica-top-shareholder-with-99-stake-3168272
 2023,Magic Leap (Continued),Technology/AR-VR,United States,$750 million (since start of 2023),Additional Funding,https://www.bloomberg.com/news/articles/2024-08-06/saudi-arabia-s-pif-provided-750-million-to-depleted-ar-startup-magic-leap
+2023,Alibaba,Technology/E-commerce,Asia - Emerging (China),$212 million (at exit),Stake Acquisition & Exit (sold Q2 2025),https://www.scmp.com/business/markets/article/3224986/saudis-us700-billion-wealth-fund-fan-alibaba-pdd-flat-glass-stocks-middle-east-china-ties-spur-new
+2023,PDD Holdings,Technology/E-commerce,Asia - Emerging (China),N/A,Minority Stake (later divested),https://www.scmp.com/business/markets/article/3224986/saudis-us700-billion-wealth-fund-fan-alibaba-pdd-flat-glass-stocks-middle-east-china-ties-spur-new
 2024,Heathrow Airport (Completion),Infrastructure/Aviation,UK,$2.5 billion (part of €4B combined),15% Stake Acquisition,https://www.pif.gov.sa/en/news-and-insights/press-releases/2024/pif-completes-its-acquisition-of-15-stake-in-heathrow-airport/
 2024,JLL-FMTECH Partnership,Real Estate/Facilities Management,Middle East & North Africa excluding Saudi Arabia,N/A,Strategic Transaction,https://gulfnews.com/world/gulf/saudi/saudi-arabias-public-investment-fund-named-worlds-most-active-swf-in-2025-1.500399307
 2024,Live Nation Entertainment (Exit),Entertainment/Hospitality,United States,$1.38 billion (sale value),Full Divestment,https://www.agbi.com/finance/2024/11/pif-sells-stake-in-us-concert-promoter-live-nation/
@@ -67,5 +72,15 @@ Deal Year,Target Company,Sector,Geography,Deal Value (USD),Deal Type,Source URL
 2024,UnitedHealth,Healthcare,United States,N/A,New Position Added,https://www.arabnews.com/node/2612963/business-economy
 2024,Eli Lilly,Biotech/Pharmaceutical,United States,N/A,New Position Added,https://www.arabnews.com/node/2612963/business-economy
 2024,Merck,Biotech/Pharmaceutical,United States,N/A,New Position Added,https://www.arabnews.com/node/2612963/business-economy
+2024,Thermo Fisher Scientific,Healthcare/Life Sciences,United States,N/A,New Position Added,https://seekingalpha.com/article/4821877-tracking-saudi-sovereign-wealth-funds-13f-portfolio-q2-2025-update
+2024,Abbott Labs,Healthcare/Medical Devices,United States,N/A,New Position Added,https://seekingalpha.com/article/4821877-tracking-saudi-sovereign-wealth-funds-13f-portfolio-q2-2025-update
+2024,Regeneron Pharmaceuticals,Biotech/Pharmaceutical,United States,N/A,New Position Added,https://seekingalpha.com/article/4821877-tracking-saudi-sovereign-wealth-funds-13f-portfolio-q2-2025-update
 2024,Lucid Motors (Increase),Automotive/Electric Vehicles,United States,N/A,Increased by ~400M shares,https://www.arabnews.com/node/2612963/business-economy
+2024,MBC Group (Agreement),Media/Entertainment,Middle East & North Africa excluding Saudi Arabia,$2 billion,54% Stake Acquisition (announced Nov 2024),https://www.agbi.com/media/2024/11/pif-to-acquire-54-stake-in-mbc-group-for-2bn/
+2024,HOLON GmbH,Automotive/Manufacturing,Europe (excluding UK - Germany),N/A,38% Stake Acquisition,https://gulfnews.com/world/gulf/saudi/saudi-arabias-public-investment-fund-named-worlds-most-active-swf-in-2025-1.500399307
+2024,China Financial Institutions MoUs,Financial Services,Asia - Emerging (China),$50 billion,Strategic Partnerships & MoUs,https://www.scmp.com/business/banking-finance/article/3273010/saudi-arabia-wealth-fund-signs-us50b-agreements-6-top-chinese-institutions
+2024,Tennis ATP/WTA Tours,Sports/Entertainment,Global/Multi-region,$2 billion,Acquisition Offer,https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/pif-continued-to-drive-the-economic-transformation-of-saudi-arabia-while-shaping-global-economies-in-2024/
 2025,Electronic Arts (Buyout),Gaming/Technology,United States,$55 billion (total with partners),93.6% Acquisition (with Silver Lake & Affinity),https://ir.ea.com/press-releases/press-release-details/2025/EA-Announces-Agreement-to-be-Acquired-by-PIF-Silver-Lake-and-Affinity-Partners-for-55-Billion/default.aspx
+2025,MBC Group (Completion),Media/Entertainment,Middle East & North Africa excluding Saudi Arabia,$2 billion,54% Stake Acquisition (completed Sep 2025),https://www.pif.gov.sa/en/news-and-insights/press-releases/2025/pif-completes-acquisition-of-54-percent-of-media-company-mbc-group/
+2025,Olam Agri,Agriculture/Food,Global/Multi-region (Africa operations),$1.78 billion,80% Stake via SALIC (PIF subsidiary),https://realassets.ipe.com/news/saudis-pif-to-take-full-control-of-olam-agri-for-18bn/10129036.article
+2025,Goldman Sachs Partnership,Financial Services/Asset Management,Saudi Arabia,N/A,Strategic Partnership - Private Credit & Equity,https://am.gs.com/en-hk/advisors/news/press-release/2025/pif-partnership
