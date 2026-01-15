@@ -1,0 +1,114 @@
+LINKEDIN OUTREACH QUEUE
+========================
+
+Instructions: Fill out each person's info below, then paste this entire file back to Claude.
+Claude will generate personalized messages for each person.
+
+---
+
+PERSON #1:
+Name:
+Company:
+Title:
+LinkedIn URL: (optional, for your reference)
+Connection Type: [HKS alum / IMF alum / 1st degree / 2nd degree / InMail / Recruiter / Senior (MD/Partner)]
+Application Status: [Applied for: ROLE NAME / Not applied - exploring / Not applied - will apply]
+
+Commonalities Found:
+-
+-
+-
+
+Something Specific About Them:
+(Recent post? Article? Company news? Anything to personalize the message)
+
+
+Message Priority: [High / Medium / Low]
+
+---
+
+PERSON #2:
+Name:
+Company:
+Title:
+LinkedIn URL:
+Connection Type:
+Application Status:
+
+Commonalities Found:
+-
+-
+
+Something Specific About Them:
+
+
+Message Priority:
+
+---
+
+PERSON #3:
+Name:
+Company:
+Title:
+LinkedIn URL:
+Connection Type:
+Application Status:
+
+Commonalities Found:
+-
+-
+
+Something Specific About Them:
+
+
+Message Priority:
+
+---
+
+PERSON #4:
+Name:
+Company:
+Title:
+LinkedIn URL:
+Connection Type:
+Application Status:
+
+Commonalities Found:
+-
+-
+
+Something Specific About Them:
+
+
+Message Priority:
+
+---
+
+PERSON #5:
+Name:
+Company:
+Title:
+LinkedIn URL:
+Connection Type:
+Application Status:
+
+Commonalities Found:
+-
+-
+
+Something Specific About Them:
+
+
+Message Priority:
+
+---
+
+ADD MORE AS NEEDED - JUST COPY THE FORMAT ABOVE
+
+========================
+HOW TO USE:
+1. Fill out 5-10 people at a time
+2. Copy entire file contents
+3. Paste into Claude chat
+4. Get personalized messages for all of them instantly
+========================

@@ -1,0 +1,36 @@
+Date Sent,Name,Company,Title,Connection Type,Template Used,Applied to Job?,LinkedIn URL,Status,Date Responded,Follow-Up 1 Sent,Follow-Up 2 Sent,Call Scheduled?,Call Date,Outcome,Notes
+2026-01-15,Teneo Guy,Teneo,Managing Director,HKS Alum,Template 4 (Senior),No,https://linkedin.com/in/xxx,Sent,,,,,,,Personalized - mentioned Ministry of Investment background
+2026-01-15,Dow Jones Guy,Dow Jones,Analyst,1st Degree,Template 3 (1st degree - applied),Yes - Consultant Advisory,https://linkedin.com/in/xxx,Sent,,,,,,,Applied to geopolitical risk consultant role
+2026-01-15,EY Guy,EY,Analyst,IMF Alum,Template 2 (IMF),No,https://linkedin.com/in/xxx,Sent,,,,,,,Former IMF colleague
+2026-01-15,Control Risks Guy,Control Risks,Principal,Cold/InMail,Template 4 (Senior),No,https://linkedin.com/in/xxx,Sent,,,,,,,18 years at firm - very senior
+
+INSTRUCTIONS FOR USE:
+1. Add new row for each person you message
+2. Update "Status" as things progress: Sent → Responded → Call Scheduled → Completed
+3. Track follow-ups in their columns
+4. Use "Outcome" for final result: Referral / Interview / No response / Not a fit / etc.
+5. "Notes" for anything important (shared connection mentioned, specific advice given, etc.)
+
+CONNECTION TYPES:
+- HKS Alum
+- IMF Alum
+- 1st Degree (already connected)
+- 2nd Degree
+- InMail (not connected)
+- Recruiter
+- Senior (MD/Partner/Principal)
+
+STATUS OPTIONS:
+- Sent
+- Responded
+- Call Scheduled
+- Call Completed
+- No Response (after 2 follow-ups)
+- Referral Given
+- Interview Scheduled
+- Not Interested
+
+WEEKLY GOALS:
+- 15-20 messages sent per week
+- Target 30-40% response rate
+- Convert 50% of calls to referrals/intros

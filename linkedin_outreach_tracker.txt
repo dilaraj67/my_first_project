@@ -1,0 +1,69 @@
+LINKEDIN OUTREACH TRACKER
+=========================
+
+Track all your LinkedIn messages here. Update status as you go.
+
+Legend:
+📤 SENT = Message sent
+✅ RESPONDED = They replied
+📞 CALL SCHEDULED = Have a call set up
+🔄 FOLLOW-UP SENT = Sent follow-up message
+❌ NO RESPONSE = No reply after 2 follow-ups
+⭐ OPPORTUNITY = Led to interview/referral/opportunity
+
+---
+
+WEEK 1: [Date Range]
+--------------------
+
+1. [Name] - [Company] - [Title]
+   Connection: [Type]
+   Status:
+   Date Sent:
+   Response Date:
+   Notes:
+
+2. [Name] - [Company] - [Title]
+   Connection: [Type]
+   Status:
+   Date Sent:
+   Response Date:
+   Notes:
+
+3. [Name] - [Company] - [Title]
+   Connection: [Type]
+   Status:
+   Date Sent:
+   Response Date:
+   Notes:
+
+---
+
+WEEK 2: [Date Range]
+--------------------
+
+[Continue same format]
+
+---
+
+WEEKLY STATS:
+-------------
+Messages Sent:
+Responses Received:
+Response Rate:
+Calls Scheduled:
+Applications/Referrals:
+
+---
+
+TOP PERFORMERS (Companies with highest response rates):
+-
+-
+-
+
+INSIGHTS/PATTERNS:
+- What types of messages get responses?
+- What day/time works best?
+- Which connection types respond most?
+
+=========================
