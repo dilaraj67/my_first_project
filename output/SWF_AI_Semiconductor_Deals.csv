@@ -2,6 +2,7 @@ Date,Fund,Counterparty,Sector,Geography,Instrument,Source
 2023-06-22,QIA,Kokusai Electric (via KKR),Semiconductor Equipment,Japan,Stake (5%),QIA Newsroom / Reuters
 2023-05-01,QIA,Builder.ai,AI/ML Platform,UK,"Fund (Series D lead, $250M)",Bloomberg / AGBI
 2023-11-01,QIA,Databricks,AI/ML Platform,US,"Fund (Series I, $43B val.)",QIA Newsroom / Reuters
+2023-12-10,QIA,Kingdee International Software,AI/ML Platform,China (Shenzhen),"Stake (4.26%, $200M)",China Daily / Reuters
 2024-05-13,QIA,Ardian Semiconductor,Semiconductors,Europe (France),Fund (Anchor investor),Bloomberg / QIA Newsroom
 2024-12-01,QIA,xAI (Elon Musk),AI Infrastructure,US,"Fund (Series C, $6B round)",Reuters / AGBI
 2024-11-19,QIA,Cresta AI,AI/ML Platform,US,"Fund (Series D co-lead, $125M)",Bloomberg / AGBI
@@ -11,11 +12,14 @@ Date,Fund,Counterparty,Sector,Geography,Instrument,Source
 2025-09-25,QIA,Blue Owl Capital,Data Centers,US (Global),JV ($3B+ digital infra platform),Bloomberg / QIA Newsroom
 2025-12-08,QIA,Qai (QIA subsidiary) / Brookfield,AI Infrastructure,Qatar (Global),JV ($20B AI infra partnership),QIA Newsroom / Reuters
 2025-06-01,QIA,Anthropic,AI Models/Research,US,Fund ($13B round participation),Bloomberg / The National News
-2025-05-01,QIA,Alice & Bob (with Bpifrance),AI Infrastructure,France,JV (Quantum computing investment),AGBI / Global SWF
 2023-11-01,PIF,Databricks (via Sanabil),AI/ML Platform,US,"Fund (Series I, via Sanabil sub.)",Reuters / Global SWF
 2024-02-01,PIF,Alat (PIF company launch),Semiconductors,Saudi Arabia,Fund ($100B mfg. initiative),PIF Official / Arab News
+2022-12-09,PIF,Huawei Cloud,AI Cloud Computing,China / Saudi Arabia,MOU (Cloud & AI infra buildout),China Daily / Bloomberg
+2023-01-01,PIF,SenseTime (via SCAI JV),AI Infrastructure,China / Saudi Arabia,JV ($776M AI ecosystem dev.),Arab News / Bloomberg
+2024-02-20,PIF,Dahua Technology (via Alat/AIVisio),AI Infrastructure,China / Saudi Arabia,JV ($200M AIoT mfg. hub),Arab News / Euronews
 2024-02-20,PIF,SoftBank Group (via Alat),AI Infrastructure,Saudi Arabia,JV ($150M robot mfg. hub),SoftBank / Arab News
 2024-03-01,PIF,Amazon Web Services (AWS),AI Cloud Computing,Saudi Arabia,MOU ($5.3B AI Zone),Reuters / Bloomberg
+2024-08-01,PIF,"6 Chinese banks (ICBC, BoC, CCB, etc.)",AI Infrastructure,China / Saudi Arabia,MOU ($50B framework for tech/infra),Al-Monitor / Reuters
 2024-12-01,PIF,Groq (via Aramco Digital),AI Chips,Saudi Arabia (Dammam),JV (AI inference datacenter),Reuters / The National News
 2025-02-10,PIF,Groq / Aramco Digital,AI Inference,Saudi Arabia (Dammam),Fund ($1.5B expansion),Bloomberg / MEI
 2025-02-10,PIF,Databricks (LEAP 2025),AI/ML Platform,Saudi Arabia,MOU ($300M PaaS commitment),Arab News / LEAP
@@ -26,13 +30,15 @@ Date,Fund,Counterparty,Sector,Geography,Instrument,Source
 2025-Q2,PIF,Analog Devices,Semiconductors,US,Stake (new position),Bloomberg / Arab News (SEC 13F)
 2025-05-13,PIF,NVIDIA (via HUMAIN),AI Chips,US / Saudi Arabia,"MOU (18,000 GB300 chips)",Reuters / Bloomberg / NVIDIA
 2025-05-13,PIF,AMD (via HUMAIN),AI Chips,US / Saudi Arabia,"JV ($10B AI infra, 500MW)",Bloomberg / The National News
-2025-05-01,PIF,HUMAIN launch (PIF subsidiary),AI Infrastructure,Saudi Arabia (Global),Fund (National AI champion),PIF Official / Reuters
 2025-05-01,PIF,Qualcomm (via HUMAIN),Semiconductors,US / Saudi Arabia,MOU (Design center partnership),Bloomberg / Arab News
 2025-10-28,PIF,Blackstone / AirTrunk (via HUMAIN),Data Centers,Saudi Arabia,JV ($3B data center campus),Bloomberg / Blackstone
 2025-11-01,PIF,"NVIDIA (expanded, via HUMAIN)",AI Chips,US / Saudi Arabia,MOU (600K chips over 3 years),Reuters / Bloomberg
 2025-11-19,PIF,AMD / Cisco (via HUMAIN),AI Infrastructure,US / Saudi Arabia (Global),JV (1GW AI infra by 2030),Bloomberg / Cisco Newsroom
-2025-11-01,PIF,"AWS (via HUMAIN, expanded)",AI Cloud Computing,Saudi Arabia (Riyadh),MOU (150K NVIDIA GPUs in AI Zone),Bloomberg / Reuters
+2025-11-01,PIF,Google Cloud (via HUMAIN),AI Cloud Computing,US / Saudi Arabia,JV ($10B AI Hub partnership),Google Cloud / Bloomberg
 2023-11-01,ADIA,Landmark Dividend / DigitalBridge,Digital Infrastructure,US,Stake (40% acquisition),Bloomberg / DigitalBridge
+2023-11-27,ADIA,G42 divests ByteDance/xFusion/Honor,AI Infrastructure,China (Divestment),"Stake (Divestment, US pressure)",NYT / Financial Times
+2024-04-15,ADIA,"G42-Microsoft ($1.5B, China exit cond.)",AI Infrastructure,US / UAE,Fund ($1.5B conditioned on China exit),Bloomberg / Microsoft
+2024-07-08,ADIA,"G42 42XFund → Lunate (JD.com, ByteDance)",AI/ML Platform,China (Restructured),Fund (China fund transferred to Lunate),Bloomberg / AGBI
 2024-03-01,MGX/Mubadala,MGX launch (Mubadala + G42),AI Infrastructure,UAE (Global),Fund ($100B AI investment vehicle),Bloomberg / The National News
 2024-09-17,MGX/Mubadala,BlackRock / Microsoft / GIP,AI Infrastructure,US (Global),"JV ($30B equity, $100B total GAIIP)",Bloomberg / Microsoft / BlackRock
 2024-10-01,MGX/Mubadala,OpenAI,AI Models/Research,US,"Fund ($6.6B round, $157B val.)",Bloomberg / Reuters
@@ -43,4 +49,5 @@ Date,Fund,Counterparty,Sector,Geography,Instrument,Source
 2025-01-21,MGX/Mubadala,OpenAI / SoftBank / Oracle (Stargate),AI Infrastructure,US (Global),"JV ($500B AI infra, $7B MGX equity)",Reuters / Bloomberg / MEI
 2025-03-19,MGX/Mubadala,NVIDIA / xAI (joined AIP),AI Infrastructure,US,"JV (AIP expansion with NVIDIA, xAI)",BlackRock / Bloomberg
 2025-09-10,ADIA,Vantage Data Centers (with GIC),Data Centers,Asia-Pacific,Fund ($1.6B APAC platform),Bloomberg / The National News
+2025-09-16,MGX/Mubadala,Altera / Intel (with Silver Lake),Semiconductors,US,"Stake (51% of Altera, $8.75B val.)",Bloomberg / MGX Official
 2025-10-14,MGX/Mubadala,Aligned Data Centers (via AIP/GIP),Data Centers,US,"Stake ($40B acquisition, 100% equity)",Bloomberg / BlackRock
